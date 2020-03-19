@@ -6,20 +6,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<TextView
+    android:id="@+id/Blue"
+    android:text="Blue"
+    android:textSize="30sp"
+    android:background="#2196F3"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/TextView1"
+        android:text="Green"
+        android:id="@+id/Green"
+        android:layout_above="@id/Blue"
+        android:layout_alignLeft="@id/Blue"
         android:textSize="30sp"
-        android:text="View 1"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@id/TextView2"
+        android:background="#28F321"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/TextView2"
+        android:text="Red"
+        android:layout_above="@id/Green"
+        android:layout_alignLeft="@id/Blue"
         android:textSize="30sp"
-        android:text="View 2"
-        android:layout_alignParentRight="true"
+        android:background="#F44336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Orange"
+        android:id="@+id/Orange"
+        android:layout_below="@id/Blue"
+        android:layout_alignLeft="@id/Blue"
+        android:textSize="30sp"
+        android:background="#D8B06C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Gray"
+        android:id="@+id/Gray"
+        android:layout_below="@id/Orange"
+        android:layout_alignLeft="@id/Blue"
+        android:textSize="30sp"
+        android:background="#534F4F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Prink"
+        android:layout_below="@id/Gray"
+        android:layout_alignLeft="@id/Blue"
+        android:textSize="30sp"
+        android:background="#D136F4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
