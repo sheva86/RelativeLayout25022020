@@ -1,62 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:background="#D7E8E5"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingVertical="150dp"
     tools:context=".MainActivity">
-<TextView
-    android:id="@+id/Blue"
-    android:text="Blue"
-    android:textSize="30sp"
-    android:background="#2196F3"
-    android:layout_centerInParent="true"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"/>
     <TextView
-        android:text="Green"
-        android:id="@+id/Green"
-        android:layout_above="@id/Blue"
-        android:layout_alignLeft="@id/Blue"
-        android:textSize="30sp"
-        android:background="#28F321"
+        android:id="@+id/tvtView1"
+        android:text="1"
+        android:paddingHorizontal="70dp"
+        android:paddingVertical="20dp"
+        android:textSize="50sp"
+        android:background="#f20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:text="Red"
-        android:layout_above="@id/Green"
-        android:layout_alignLeft="@id/Blue"
-        android:textSize="30sp"
-        android:background="#F44336"
+        android:id="@+id/tvtView2"
+        android:text="2"
+        android:textSize="50sp"
+        android:paddingHorizontal="70dp"
+        android:layout_below="@id/tvtView1"
+        android:layout_toRightOf="@id/tvtView1"
+        android:background="#18D820"
+        android:paddingVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvtView3"
+        android:text="3"
+        android:textSize="50sp"
+        android:paddingHorizontal="70dp"
+        android:layout_below="@id/tvtView2"
+        android:layout_toRightOf="@id/tvtView2"
+        android:background="#909A31"
+        android:paddingVertical="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:text="Orange"
-        android:id="@+id/Orange"
-        android:layout_below="@id/Blue"
-        android:layout_alignLeft="@id/Blue"
-        android:textSize="30sp"
-        android:background="#D8B06C"
+        android:id="@+id/tvtView4"
+        android:text="4"
+        android:textSize="50sp"
+        android:paddingHorizontal="70dp"
+        android:layout_below="@id/tvtView3"
+        android:layout_toRightOf="@id/tvtView3"
+        android:background="#8A1162"
+        android:paddingVertical="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:text="Gray"
-        android:id="@+id/Gray"
-        android:layout_below="@id/Orange"
-        android:layout_alignLeft="@id/Blue"
-        android:textSize="30sp"
-        android:background="#534F4F"
+        android:id="@+id/tvtView5"
+        android:text="5"
+        android:textSize="50sp"
+        android:paddingHorizontal="70dp"
+        android:layout_below="@id/tvtView4"
+        android:layout_toLeftOf="@id/tvtView4"
+        android:background="#85726C"
+        android:paddingVertical="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:text="Prink"
-        android:layout_below="@id/Gray"
-        android:layout_alignLeft="@id/Blue"
-        android:textSize="30sp"
-        android:background="#D136F4"
+        android:id="@+id/tvtView6"
+        android:text="6"
+        android:textSize="50sp"
+        android:paddingHorizontal="70dp"
+        android:layout_below="@id/tvtView5"
+        android:layout_toLeftOf="@id/tvtView5"
+        android:background="#CFAF75"
+        android:paddingVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="7"
+        android:textSize="50sp"
+        android:paddingHorizontal="70dp"
+        android:layout_below="@id/tvtView6"
+        android:layout_toLeftOf="@id/tvtView6"
+        android:background="#0FF4DB"
+        android:paddingVertical="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
 
 </RelativeLayout>
+
